@@ -50,3 +50,24 @@ Create an Entity-Relationship (ER) diagram based on the database specification h
 - Directory: `ERD/`
 - File: `requirements.md`
 
+### 1. Normalize Your Database Design
+
+#### Objective: 
+
+Apply normalization principles to ensure the database is in the third normal form (3NF).
+
+#### Instructions:
+
+- Review your schema and identify any potential redundancies or violations of normalization principles.
+
+- Adjust your database design to achieve 3NF, if necessary.
+
+- Provide an explanation of your normalization steps in a Markdown file.
+
+#### Repo:
+
+- GitHub repository: `alx-airbnb-database`
+- File: `normalization.md`
+
+
+
