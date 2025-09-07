@@ -3,7 +3,7 @@
 SELECT p.name, p.location, p.price_per_night from property p
 INNER JOIN review r
 ON p.property_id = r.property_id
-WHERE ( SELECT AVG(rating) from review ) > 4
+WHERE ( SELECT AVG(rating) from review ) > '4.0'
 ORDER BY p.property_id DESC;
 
 -- Correlated subqueries
