@@ -88,3 +88,19 @@ Master SQL joins by writing complex queries using different types of joins.
 - Directory: `database-adv-script`
 - File: `subqueries.sql`, `README.md`
 
+### 2. Apply Aggregations and Window Functions
+
+#### Objective: Use SQL aggregation and window functions to analyze data.
+
+Instructions:
+
+- Write a query to find the total number of bookings made by each user, using the `COUNT` function and `GROUP BY` clause.
+
+- Use a window function (`ROW_NUMBER`, `RANK`) to rank properties based on the total number of bookings they have received.
+
+Repo:
+
+- GitHub repository: `alx-airbnb-database`
+- Directory: `database-adv-script`
+- File: `aggregations_and_window_functions.sql`, `README.md`
+
